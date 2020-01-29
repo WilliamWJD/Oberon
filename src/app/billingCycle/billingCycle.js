@@ -8,11 +8,11 @@ const creditSchema=new mongoose.Schema({
 
 const debtSchema=new mongoose.Schema({
     name: {type:String, required:true},
-    valor: {type:Number, min:0, required:true},
+    value: {type:Number, min:0, required:[true, 'O campo valor é obrigatório']},
     status: {type:String, required:false, uppercase:true, enum:['PAGO', 'PENDENTE', 'AGENDADO']}
 })
 
-const billingCycleSchema=new mongoose.schema({
+const billingCycleSchema=new mongoose.Schema({
     name: {type:String, required:true},
     month: {type:Number, min:1, max:12, required:true},
     year: {type:Number, min:1970, max:20100, required:true},

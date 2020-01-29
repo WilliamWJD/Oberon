@@ -10,7 +10,7 @@ server.use(bodyParser.urlencoded({extended:true}))
 server.use(bodyParser.json())
 
 server.listen(port,()=>{
-    console.log(`Servidor online na porta: ${port}`)
+    console.log(`Servidor online`)
 })
 
 module.exports=server
