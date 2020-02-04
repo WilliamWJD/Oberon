@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default props=>{
-    <div className="wrapper">
-        <h1>Dev</h1>
-    </div>
+const teste=()=>{
+    return(
+        <div>
+            <h1>asdadsa</h1>
+        </div>
+    )
 }
+
+export default teste
