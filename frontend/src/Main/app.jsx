@@ -1,11 +1,8 @@
+import '../common/template/dependencies'
 import React from 'react'
 
-const teste=()=>{
-    return(
-        <div>
-            <h1>asdadsa</h1>
-        </div>
-    )
-}
-
-export default teste
+export default props=>(
+    <div className='wrapper'>
+        <h1>App</h1>
+    </div>
+)
