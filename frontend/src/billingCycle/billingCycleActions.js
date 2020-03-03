@@ -7,3 +7,10 @@ export function getList(){
         payload: response
     }
 }
+
+export function create(values){
+    api.post('/billingCycles', values)
+    return{
+        type: 'TEMP'
+    }
+}
