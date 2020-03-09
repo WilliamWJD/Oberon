@@ -1,7 +1,7 @@
 <h1 align="center">My Money - Ciclos de Pagamentos</h1>
 
 <h1 align="center">
-    <img alt="MyMoney" src="assets/my-money.png" width="250px" />
+    <img alt="MyMoney" src="assets/my-money.png"/>
 </h1>
 
 ## 💻 Projeto
